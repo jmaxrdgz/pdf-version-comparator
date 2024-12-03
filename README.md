@@ -1,4 +1,4 @@
-# WindVersion - Detecting and Classifying Text Changes with NLP
+# WindVersion
 Development of an application designed to compare two versions of a document (PDFs) and detect subtle and significant changes between them. The goal is to efficiently identify variations in both form (paraphrases, structure) and content (added concepts, deleted information) with Mistral's 7B model.
 
 ## Key Features:
