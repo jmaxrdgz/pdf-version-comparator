@@ -1,5 +1,5 @@
 # WindVersion
-Development of an application designed to compare two versions of a document (PDFs) and detect subtle and significant changes between them. The goal is to efficiently identify variations in both form (paraphrases, structure) and content (added concepts, deleted information) with Mistral's 7B embeddings.
+Development of an application designed to compare two versions of a document (PDFs) and detect subtle and significant changes between them. The goal is to efficiently identify variations in both form (paraphrases, structure) and content (added concepts, deleted information) with embeddings.
 
 ## Key Features:
 ### Text Comparison: 
