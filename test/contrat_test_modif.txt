@@ -1,0 +1,35 @@
+Modifications de forme :
+Adresse du si�ge social du Prestataire :
+Avant : "15, rue des Champs"
+Apr�s : "15, rue des Champs-�lys�es"
+Type : Modification de forme pour enrichir le d�tail de l'adresse.
+Introduction du pr�ambule :
+Avant : "Le Prestataire propose des services de conseil et d'accompagnement en gestion de projet."
+Apr�s : "Le Prestataire se sp�cialise dans les services de conseil et d'accompagnement en gestion de projet."
+Type : Paraphrase pour varier la formulation.
+Article 1 : Objet du contrat :
+Avant : "Le pr�sent contrat a pour objet de d�finir les modalit�s et conditions..."
+Apr�s : "Ce contrat vise � pr�ciser les modalit�s et conditions..."
+Type : Paraphrase sans modification de sens.
+Article 3.1 (Premi�re obligation du Prestataire) :
+Avant : "Fournir les services conform�ment aux besoins exprim�s par le Client."
+Apr�s : "Fournir les services conform�ment aux attentes du Client."
+Type : Paraphrase.
+Article 5 (Confidentialit�) :
+Avant : "Les deux parties s'engagent � maintenir strictement confidentielles toutes les informations �chang�es..."
+Apr�s : "Les parties conviennent de garder strictement confidentielles toutes les informations �chang�es..."
+Type : Paraphrase.
+
+Modifications de fond :
+Dur�e du contrat (Article 2) :
+Avant : "Il pourra �tre renouvel� par accord �crit des deux parties."
+Apr�s : "Il pourra �tre prolong� d'un commun accord entre les deux parties."
+Type : Modification de fond pour clarifier le m�canisme de prolongation.
+Modalit�s de paiement (Article 4.2) :
+Avant : "Les paiements devront �tre effectu�s par virement bancaire sur le compte du Prestataire."
+Apr�s : "Les paiements devront �tre r�alis�s par virement bancaire sur le compte indiqu� par le Prestataire."
+Type : Modification de fond pour une pr�cision accrue.
+Clause de r�siliation (Article 7) :
+Avant : "le contrat pourra �tre r�silie par l'autre partie apr�s l'envoi d'une mise en demeure rest�e sans effet pendant trente (30) jours."
+Apr�s : "le contrat pourra �tre r�sili� par l'autre partie apr�s l'envoi d'une mise en demeure rest�e sans effet dans un d�lai de trente (30) jours."
+Type : Modification de fond pour plus de pr�cision juridique.
