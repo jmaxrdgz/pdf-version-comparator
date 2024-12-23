@@ -1,12 +1,13 @@
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from huggingface_hub import snapshot_download, login
 from pathlib import Path
 from peft import PeftModel
-from transformers import AutoModelForCausalLM, AutoTokenizer
 
 class Interpretor():
-    LORAS_PATH = "model/interpretor_lora"
-    HG_MODEL_ID = "mistralai/Mistral-7B-v0.3" # Model ID from the Mistral Hub
-    MODEL_PATH = "models/mistral-7B-v0.3" # Path to store the model
+
+    LORAS_PATH = "model/interpretor_lora" # Default path to LoRa folder
+    HG_MODEL_ID = "mistralai/Mistral-7B-v0.3" # Default model ID from the Mistral Hub
+    MODEL_PATH = "model/mistral-7B-v0.3" # Default path to store the model
 
     def __init__(self, hg_model_id:str=HG_MODEL_ID, model_path:str=MODEL_PATH, loras_path=LORAS_PATH, half_precision:bool=False):
         self.hg_model_id = hg_model_id
@@ -34,7 +35,7 @@ class Interpretor():
             )
             if self.half_precision:
                 self.model = self.model.half()
-                
+
         except Exception as e:
             raise RuntimeError(f"Failed to load the base model: {e}")
         
@@ -101,5 +102,6 @@ class Interpretor():
         for lora in loras:
             try:
                 self.model.set_adapter(lora)
+
             except KeyError:
                 print(f"Error: LoRa adapter {lora} is not loaded into the model.")
