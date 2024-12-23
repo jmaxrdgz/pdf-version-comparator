@@ -4,16 +4,14 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 HG_MODEL_ID = "mistralai/Mistral-7B-v0.3" # Model ID from the Mistral Hub
-MODEL_PATH = "models/mistral-7B-v0.3" 
-TOKENIZER_PATH = "/models/tokenizer.model.v3"
-HALF_PRECISION = False # If less than 16GB GPU memory available
+MODEL_PATH = "models/mistral-7B-v0.3" # Path to store the model
 
 class Interpretor():
     lora_adapters = {
         "example" : "models/lora/example.pt"
     }
 
-    def __init__(self, hg_model_id:str, model_path:str, half_precision:bool=False):
+    def __init__(self, hg_model_id:str=HG_MODEL_ID, model_path:str=MODEL_PATH, half_precision:bool=False):
         self.hg_model_id = hg_model_id
         self.model_path = Path.home().joinpath(model_path)
         self.half_precision = half_precision
